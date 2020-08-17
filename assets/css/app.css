@@ -35,7 +35,7 @@ body {
   text-decoration: none;
 }
 .menu-item:first-of-type {
-  padding: 20px;
+  padding: 0 20px 0 0;
 }
 
 .subtitle {
