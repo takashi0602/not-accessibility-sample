@@ -22,6 +22,10 @@
 
 .list-item_date {
   display: block;
-  color: #888888;
-  margin: 0 0 10px;
+  color: #525252;
+  margin: 0 0 5px;
+}
+
+.list-item_description {
+  margin: 0;
 }
