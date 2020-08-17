@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Not Accessibility</title>
+  <link rel="stylesheet" href="./assets/css/app.css">
+  <link rel="stylesheet" href="./assets/css/contact.css">
+</head>
+<body>
+  <div class="header">
+    <div class="title">サンプル</div>
+    <div class="menu">
+      <a href="./index.html" class="menu-item">リスト</a>
+      <a href="./contact.html" class="menu-item">お問い合わせ</a>
+    </div>
+  </div>
+  <div class="main">
+    <div class="subtitle">お問い合わせ</div>
+    <form id="form" name="form" class="form">
+      <div class="form-item">
+        <div class="form-label">名前</div>
+        <div class="form-area">
+          <input id="name" type="text" name="name" class="form-textbox">
+        </div>
+      </div>
+      <div class="form-item">
+        <div class="form-label">メールアドレス</div>
+        <div class="form-area">
+          <input id="email" type="email" name="email" class="form-textbox">
+        </div>
+      </div>
+      <div class="form-item">
+        <div class="form-label">性別</div>
+        <div class="form-area">
+          <input type="radio" name="gender" value="男性" class="form-radio" checked>男性
+          <input type="radio" name="gender" value="女性" class="form-radio">女性
+          <input type="radio" name="gender" value="その他" class="form-radio">その他
+          <input type="radio" name="gender" value="無回答" class="form-radio">無回答
+        </div>
+      </div>
+      <div class="form-item">
+        <div class="form-label">年齢</div>
+        <div class="form-area">
+          <select id="age" name="age" class="form-selectbox">
+            <option value="">選択してください</option>
+            <option value="20歳未満">20歳未満</option>
+            <option value="20-29歳">20-29歳</option>
+            <option value="30-39歳">30-39歳</option>
+            <option value="40-49歳">40-49歳</option>
+            <option value="50-59歳">50-59歳</option>
+            <option value="60-69歳">60-69歳</option>
+            <option value="70-79歳">70-79歳</option>
+            <option value="80歳以上">80歳以上</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-item">
+        <div class="form-label">お問い合わせ内容</div>
+        <div class="form-area">
+          <textarea name="contact" rows="8" class="form-textarea"></textarea>
+        </div>
+      </div>
+      <div class="form-submit">
+        <button type="submit" class="form-submit_btn">送信</button>
+      </div>
+    </form>
+  </div>
+  <div class="footer">
+    <div class="copyright">© 2020, Hideaki Takahashi</div>
+  </div>
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>
