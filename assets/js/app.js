@@ -91,8 +91,6 @@ const onSubmit = (event) => {
   const contactChecked = validationContact(form.contact.value);
   if (nameChecked && emailChecked && genderChecked && ageChecked && contactChecked) {
     alert("送信しました。");
-  } else {
-    alert("エラーが発生しました。");
   }
   event.preventDefault();
 };
